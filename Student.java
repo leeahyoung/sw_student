@@ -1,3 +1,4 @@
+
 public static void Addstudent() throws FileNotFoundException, IOException, ClassNotFoundException{
       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
       BufferedWriter writer = new BufferedWriter(new FileWriter("student.txt",true));
@@ -24,5 +25,5 @@ public static void Addstudent() throws FileNotFoundException, IOException, Class
       writer.write(item);
       writer.close();
       i++;
-      System.out.println("학생정보가 저장되었습니다.");
+      System.out.println("학생정보가 저장되었습니다. ");
    }
